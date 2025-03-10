@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Player</title>
+  
+</head>
+<body>
+  <div class="playlists-modal">
+    <div class="playlists-modal__title">
+        Добавить в плейлист
+    </div>
+    <div class="playlists-modal__playlist_content" id="playlistContent">
+        
+    </div>
+    <div class="playlists-modal__footer">
+        <div class="playlists-modal__close-btn">
+            Отменить
+        </div>
+        <!--
+        <div class="playlists-modal__add-btn" style="bottom: 20px; right: 20px; background: #AAAAAA; color: #171717; font-size: 14px; width: 114px; height: 36px; padding: 10px; text-align: center; cursor: pointer;">
+          Добавить
+      </div>
+      -->
+    </div>
+</div>
+
+<div class="over-wrapper" style="position: relative; overflow: hidden; ">
+  <header class="header" id="header">
+    
+  </header>
+
+  <div class="content-wrap flex">
+    <aside class="aside">
+      <h2 class="aside__h2 visually-hidden">Левая панель навигации</h2>
+      <nav class="aside__nav">
+        <button class="search__btn-open">
+          <svg width="20" height="20"  fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.5 18C14.1944 18 18 14.1944 18 9.5C18 4.80558 14.1944 1 9.5 1C4.80558 1 1 4.80558 1 9.5C1 14.1944 4.80558 18 9.5 18Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.9999 19L15.5 15.5001" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="aside__list" id="asideList">
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section class="tracks section tabs-content section--active" data-target="tracks">
+       
+          
+          <div id="main">
+            <div class="track-list">
+
+            </div>
+            
+            <div class="api">
+
+            </div>
+          </div>
+        
+      </section>
+      <section class="playlist section tabs-content" data-target="playlists">
+        <h2 class="playlist__h2 visually-hidden">Плейлисты</h2>
+        <div id="playlists" class="sidebar-container">
+
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      
+    </footer>
+
+
+  </div>
+</div>
+  <!-- <div id="app"></div> -->
+</body>
+</html>

@@ -1,0 +1,31 @@
+.player__shaffle-btn,
+.player__skipback-btn,
+.player__skipnext-btn,
+.player__repeat-btn,
+.tracks__item__number,
+.header__user__svg {
+  display: none;
+}
+
+.player {
+  position: relative;
+}
+
+.player__play-btn {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+}
+
+.player__controls__header button:not(:last-child) {
+  margin: 0;
+}
+
+.player__track-name {
+  max-width: 100%;
+  padding-right: 50px;
+}
+
+.player {
+  padding: 14px 16px;
+}
