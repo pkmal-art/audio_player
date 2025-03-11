@@ -5,7 +5,7 @@ export const API_BASE_URL = 'http://localhost:3000'; // Укажите базо�
 axios.defaults.baseURL = API_BASE_URL;
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
-const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlBvIiwiaWQiOjEsImlhdCI6MTcyNjA1MTI4NywiZXhwIjoxNzI2NjU2MDg3fQ.1li94Nmufq-TEZkSPRFjeY-WJH0fu8MoPfMsuAPhWNk';
+const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN0cmluZyIsImlkIjoyLCJpYXQiOjE3NDE2ODE3OTEsImV4cCI6MTc0MjI4NjU5MX0.h47YMD4Ag6aMuGsLmTdb1_7oORgbFuMgKhqCLUJ7qYk';
 
 // Функция для получения списка плейлистов
 export const fetchUserPlaylists = async () => {
