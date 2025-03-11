@@ -14,3 +14,7 @@ Backend — серверная часть, предоставляющая API д
 [Запуск фронтенда](streaming_service/README.md)
 
 [Запуск бэкенда](streaming_service_api/README.md)
+
+## Лицензия
+
+Этот проект лицензируется на условиях лицензии MIT — смотрите файл [LICENSE](LICENSE) для подробностей.
